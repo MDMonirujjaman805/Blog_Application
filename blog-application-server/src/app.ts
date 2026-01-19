@@ -22,7 +22,7 @@ app.use("/posts", postRouter);
 app.use("/comments", commentRouter);
 
 app.get("/", (req, res) => {
-    res.send("Hello, World! from monir........");
+    res.send("Hello, World! This is Next JS Project.");
 });
 app.use(notFound)
 app.use(errorHandler)
