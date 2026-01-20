@@ -9,10 +9,10 @@ export default function AnalyticsLayout({
   return (
     <div>
       <p>This is Analytics Layout page.</p>
-      <div className=" space-x-5 hover:underline">
-        {/* <Button asChild>
+      <div className=" space-x-5 hover:underline my-5">
+        <Button asChild>
           <Link href={"/dashboard"}>Dashboard</Link>
-        </Button> */}
+        </Button>
         <Button asChild>
           <Link href={"/dashboard/analytics/monthly"}>Monthly</Link>
         </Button>

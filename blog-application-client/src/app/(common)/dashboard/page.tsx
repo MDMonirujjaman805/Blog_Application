@@ -52,9 +52,17 @@ export default function Dashboard() {
   return (
     <div>
       <p className="mb-8">This is Dashboard</p>
-      <Button>
-        <Link href={"/"}>Home</Link>
-      </Button>
+      <div className="space-x-5">
+        <Button>
+          <Link href={"/"}>Home</Link>
+        </Button>
+        <Button>
+          <Link href={"/dashboard/analytics"}>Analytics</Link>
+        </Button>
+        <Button>
+          <Link href={"/dashboard/write-blog"}>Write Blog</Link>
+        </Button>
+      </div>
     </div>
   );
 }

@@ -54,11 +54,13 @@ const Navbar = ({
     title: "Blog App",
   },
   menu = [
-    { title: "Home", url: "/" },
+    // { title: "Home", url: "/" },
     { title: "Blog", url: "/blog" },
     { title: "About", url: "/about" },
     { title: "Contact", url: "/contact" },
     { title: "Dashboard", url: "/dashboard" },
+    { title: "User Dashboard", url: "/user-dashboard" },
+    { title: "Admin Dashboard", url: "/admin-dashboard" },
   ],
   auth = {
     login: { title: "Sign in", url: "/signin" },
@@ -68,6 +70,7 @@ const Navbar = ({
 }: NavbarProps) => {
   return (
     <section className={cn("py-4", className)}>
+      {/* <div className="w-11/12 mx-auto border border-white"> */}
       <div className="container mx-auto">
         {/* Desktop Menu */}
         <nav className="hidden items-center justify-between lg:flex">

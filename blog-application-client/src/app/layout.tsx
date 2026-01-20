@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased w-10/12 mx-auto`}
+        className={`w-11/12 mx-auto  ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider
           attribute="class"
@@ -41,3 +41,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+// border border-white

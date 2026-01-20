@@ -14,7 +14,8 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar";
 
-const userInfo = { role: "admin" };
+// const userInfo = { role: "admin" };
+const userInfo = { role: "user" };
 
 export default function DashboardLayout({
   admin,
