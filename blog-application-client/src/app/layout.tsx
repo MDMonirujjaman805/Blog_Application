@@ -34,7 +34,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <p>This is Root Layout.</p>
+          {/* <p>This is Root Layout.</p> */}
           {children}
         </ThemeProvider>
       </body>

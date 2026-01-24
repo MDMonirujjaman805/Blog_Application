@@ -9,7 +9,7 @@ export default async function Page() {
   return (
     <div>
       <p>Hello from blog page.</p>
-      <Link href={"/blog/post"}>
+      <Link href={"/blogs/post"}>
         <Button className="cursor-pointer mt-8">Post</Button>
       </Link>
     </div>
